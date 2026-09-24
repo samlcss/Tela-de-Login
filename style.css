@@ -80,4 +80,25 @@ input:focus {
     outline: none;
 }
 
-form button {}
+form button {
+    width: 40%;
+    border: none;
+    background-color: #63c4ff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+
+form button.dark-mode {
+    background-color: #794bc4;
+}
+
+form button.dark-mode:hover {
+    background-color: #875ad1;
+}
+
+form button:focus {
+    outline: none;
+}
